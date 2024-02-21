@@ -69,7 +69,7 @@ X_test = test_data.drop('price_range', axis=1)
 y_test = test_data['price_range']
 
 # Creating the KNN classifier object
-knnClassifier = KNNclassifier(k=7)
+knnClassifier = KNNclassifier(k=9)
 
 # Fitting the model on the training data
 knnClassifier.fit(X_train, y_train)
